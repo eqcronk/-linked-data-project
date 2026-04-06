@@ -1,0 +1,1300 @@
+@prefix : <https://example.org/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    rdf:type  schema:Review .
+
+_:b1    schema:name   "province" ;
+        schema:value  wd:Q99 ;
+        rdf:type      schema:PropertyValue .
+
+_:b2    schema:name   "region_1" ;
+        schema:value  wd:Q1460 ;
+        rdf:type      schema:PropertyValue .
+
+_:b3    schema:name   "province" ;
+        schema:value  wd:Q7101030 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Rainstorm_2013_Pinot_Gris_(Willamette_Valley)>
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:additionalProperty  _:b4 ;
+        schema:additionalProperty  _:b5 ;
+        schema:review              _:b6 ;
+        schema:offers              _:b7 ;
+        dcterms:subject            "Pinot Gris" ;
+        schema:name                "Rainstorm 2013 Pinot Gris (Willamette Valley)" ;
+        schema:manufacturer        wd:Q133544744 ;
+        rdf:type                   schema:Product ;
+        schema:additionalProperty  _:b8 ;
+        schema:description         "Tart and snappy, the flavors of lime flesh and rind dominate. Some green pineapple pokes through, with crisp acidity underscoring the flavors. The wine was all stainless-steel fermented." .
+
+_:b9    schema:name   "region_2" ;
+        schema:value  wd:Q11592 ;
+        rdf:type      schema:PropertyValue .
+
+_:b10   schema:priceCurrency  "USD" ;
+        schema:price          "17"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b11   schema:priceCurrency  "USD" ;
+        schema:price          "16"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b12   schema:name   "region_2" ;
+        schema:value  wd:Q11592 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Louis_M._Martini_2012_Cabernet_Sauvignon_(Alexander_Valley)>
+        schema:description         "Slightly reduced, this wine offers a chalky, tannic backbone to an otherwise juicy explosion of rich black cherry, the whole accented throughout by firm oak and cigar box." ;
+        schema:offers              _:b13 ;
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:additionalProperty  _:b14 ;
+        dcterms:subject            "Cabernet Sauvignon" ;
+        schema:review              _:b15 ;
+        schema:additionalProperty  _:b9 ;
+        rdf:type                   schema:Product ;
+        schema:name                "Louis M. Martini 2012 Cabernet Sauvignon (Alexander Valley)" ;
+        schema:manufacturer        wd:Q85782300 ;
+        schema:additionalProperty  _:b16 .
+
+<https://example.org/Feudo_Montoni_2011_Catarratto_(Sicilia)>
+        schema:additionalProperty  _:b2 ;
+        schema:additionalProperty  _:b17 ;
+        schema:offers              _:b18 ;
+        schema:description         "Catarratto is one of Sicily's most widely farmed white grape varieties. This expression shows a mineral note, backed by citrus and almond blossom touches." ;
+        schema:countryOfOrigin     wd:Q38 ;
+        dcterms:subject            "Catarratto" ;
+        schema:name                "Feudo Montoni 2011 Catarratto (Sicilia)" ;
+        rdf:type                   schema:Product .
+
+<https://example.org/Castello_di_Amorosa_2011_King_Ridge_Vineyard_Pinot_Noir_(Sonoma_Coast)>
+        schema:offers              _:b19 ;
+        schema:additionalProperty  _:b20 ;
+        schema:review              _:b21 ;
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:description         "Oak and earth intermingle around robust aromas of wet forest floor in this vineyard-designated Pinot that hails from a high-elevation site. Small in production, it offers intense, full-bodied raspberry and blackberry steeped in smoky spice and smooth texture." ;
+        dcterms:subject            "Pinot Noir" ;
+        schema:name                "Castello di Amorosa 2011 King Ridge Vineyard Pinot Noir (Sonoma Coast)" ;
+        schema:additionalProperty  _:b22 ;
+        schema:manufacturer        wd:Q1913305 ;
+        rdf:type                   schema:Product ;
+        schema:category            "King Ridge Vineyard" ;
+        schema:additionalProperty  _:b23 .
+
+_:b24   schema:name   "region_1" ;
+        schema:value  wd:Q745121 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Terre_di_Giurfo_2011_Mascaria_Barricato_(Cerasuolo_di_Vittoria)>
+        rdf:type                   schema:Product ;
+        schema:additionalProperty  _:b25 ;
+        schema:additionalProperty  _:b26 ;
+        schema:offers              _:b10 ;
+        schema:description         "Aromas suggest mature berry, scorched earth, animal, toast and anise. The palate offers ripe black berry, oak, espresso, cocoa and vanilla alongside dusty tannins." ;
+        schema:name                "Terre di Giurfo 2011 Mascaria Barricato (Cerasuolo di Vittoria)" ;
+        schema:review              _:b27 ;
+        schema:category            "Mascaria Barricato" ;
+        dcterms:subject            "Red Blend" ;
+        schema:countryOfOrigin     wd:Q38 .
+
+_:b28   schema:name   "region_1" ;
+        schema:value  wd:Q1460 ;
+        rdf:type      schema:PropertyValue .
+
+_:b29   schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b30   schema:author  wd:Q100942550 ;
+        rdf:type       schema:Review .
+
+<https://example.org/Tarara_2010_#SocialSecret_Red_(Virginia)>
+        schema:additionalProperty  _:b31 ;
+        schema:additionalProperty  _:b32 ;
+        schema:offers              _:b33 ;
+        schema:description         "Right out of the starting blocks this is an oaky wine, dripping with caramel and vanilla notes. The texture on the midpalate is finessed and graceful, with drying tannins that latch onto the oak-driven finish. An eccentric blend of 50% Tannat, 35% Petit Verdot and 15% Pinotage." ;
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:category            "#SocialSecret" ;
+        dcterms:subject            "Red Blend" ;
+        schema:name                "Tarara 2010 #SocialSecret Red (Virginia)" ;
+        rdf:type                   schema:Product .
+
+_:b34   schema:name   "province" ;
+        schema:value  wd:Q3558198 ;
+        rdf:type      schema:PropertyValue .
+
+_:b22   schema:name   "region_2" ;
+        schema:value  wd:Q11592 ;
+        rdf:type      schema:PropertyValue .
+
+_:b35   schema:priceCurrency  "USD" ;
+        schema:price          "23"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b36   schema:priceCurrency  "USD" ;
+        schema:price          "22"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b37   schema:name   "region_1" ;
+        schema:value  wd:Q14318 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Mirassou_2012_Chardonnay_(Central_Coast)>
+        schema:additionalProperty  _:b1 ;
+        schema:offers              _:b38 ;
+        schema:description         "Building on 150 years and six generations of winemaking tradition, the winery trends toward a leaner style, with the classic California buttercream aroma cut by tart green apple. In this good everyday sipping wine, flavors that range from pear to barely ripe pineapple prove approachable but not distinctive." ;
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:additionalProperty  _:b39 ;
+        schema:name                "Mirassou 2012 Chardonnay (Central Coast)" ;
+        schema:manufacturer        wd:Q63760625 ;
+        rdf:type                   schema:Product ;
+        schema:additionalProperty  _:b40 ;
+        schema:review              _:b41 ;
+        dcterms:subject            "Chardonnay" .
+
+_:b42   rdf:type  schema:Review .
+
+_:b43   schema:name   "region_1" ;
+        schema:value  wd:Q1460 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Gaucho_Andino_2011_Winemaker_Selection_Malbec_(Mendoza)>
+        schema:review              _:b0 ;
+        dcterms:subject            "Malbec" ;
+        schema:category            "Winemaker Selection" ;
+        schema:name                "Gaucho Andino 2011 Winemaker Selection Malbec (Mendoza)" ;
+        rdf:type                   schema:Product ;
+        schema:countryOfOrigin     wd:Q414 ;
+        schema:additionalProperty  _:b44 ;
+        schema:additionalProperty  _:b45 ;
+        schema:offers              _:b46 ;
+        schema:manufacturer        wd:Q843482 ;
+        schema:description         "Raw black-cherry aromas are direct and simple but good. This has a juicy feel that thickens over time, with oak character and extract becoming more apparent. A flavor profile driven by dark-berry fruits and smoldering oak finishes meaty but hot." .
+
+_:b47   schema:name   "province" ;
+        schema:value  wd:Q1370 ;
+        rdf:type      schema:PropertyValue .
+
+_:b48   schema:author  wd:Q12064694 ;
+        rdf:type       schema:Review .
+
+_:b31   schema:name   "region_1" ;
+        schema:value  wd:Q1370 ;
+        rdf:type      schema:PropertyValue .
+
+_:b17   schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b13   schema:priceCurrency  "USD" ;
+        schema:price          "34"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b49   schema:name   "province" ;
+        schema:value  wd:Q1166 ;
+        rdf:type      schema:PropertyValue .
+
+_:b50   schema:priceCurrency  "USD" ;
+        schema:price          "50"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+<https://example.org/Clarksburg_Wine_Company_2010_Chenin_Blanc_(Clarksburg)>
+        schema:additionalProperty  _:b51 ;
+        schema:offers              _:b52 ;
+        rdf:type                   schema:Product ;
+        schema:additionalProperty  _:b53 ;
+        schema:review              _:b54 ;
+        schema:additionalProperty  _:b55 ;
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:name                "Clarksburg Wine Company 2010 Chenin Blanc (Clarksburg)" ;
+        schema:description         "Clarksburg is becoming a haven for Chenin Blanc in California. This bottling, using fruit sourced from several vineyards in the area, is balanced with just a trace of sweetness in the background (1% residual sugar). This is crisp, straightforward and blessed with notes of pear and lime. Drink it cold." ;
+        dcterms:subject            "Chenin Blanc" .
+
+<https://example.org/Stemmari_2013_Nero_d'Avola_(Terre_Siciliane)>
+        schema:additionalProperty  _:b56 ;
+        schema:additionalProperty  _:b29 ;
+        schema:review              _:b57 ;
+        schema:offers              _:b58 ;
+        schema:description         "Aromas recall ripe dark berry, toast and a whiff of cake spice. The soft, informal palate offers sour cherry, vanilla and a hint of espresso alongside round tannins. Drink soon." ;
+        schema:countryOfOrigin     wd:Q38 ;
+        dcterms:subject            "Nero d'Avola" ;
+        schema:name                "Stemmari 2013 Nero d'Avola (Terre Siciliane)" ;
+        rdf:type                   schema:Product .
+
+_:b59   schema:name   "region_1" ;
+        schema:value  wd:Q1025501 ;
+        rdf:type      schema:PropertyValue .
+
+_:b41   rdf:type  schema:Review .
+
+_:b60   schema:name   "province" ;
+        schema:value  wd:Q745121 ;
+        rdf:type      schema:PropertyValue .
+
+_:b61   schema:name   "region_1" ;
+        schema:value  wd:Q1460 ;
+        rdf:type      schema:PropertyValue .
+
+_:b62   schema:author  wd:Q7151010 ;
+        rdf:type       schema:Review .
+
+_:b63   schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b19   schema:priceCurrency  "USD" ;
+        schema:price          "69"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+<https://example.org/Leon_Beyer_2012_Gewurztraminer_(Alsace)>
+        schema:name                "Leon Beyer 2012 Gewurztraminer (Alsace)" ;
+        schema:review              _:b64 ;
+        schema:additionalProperty  _:b24 ;
+        rdf:type                   schema:Product ;
+        schema:description         "This is a dry wine, very spicy, with a tight, taut texture and strongly mineral character layered with citrus as well as pepper. It's a food wine with its almost crisp aftertaste." ;
+        schema:countryOfOrigin     wd:Q142 ;
+        dcterms:subject            "Gewürztraminer" ;
+        schema:additionalProperty  _:b60 ;
+        schema:offers              _:b65 ;
+        schema:manufacturer        wd:Q103828427 .
+
+_:b66   schema:priceCurrency  "USD" ;
+        schema:price          "13"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b67   schema:priceCurrency  "USD" ;
+        schema:price          "13"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b51   schema:name   "region_1" ;
+        schema:value  wd:Q1095860 ;
+        rdf:type      schema:PropertyValue .
+
+_:b57   schema:author  wd:Q12064694 ;
+        rdf:type       schema:Review .
+
+_:b68   schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b69   schema:author  wd:Q100942550 ;
+        rdf:type       schema:Review .
+
+_:b32   schema:name   "province" ;
+        schema:value  wd:Q1370 ;
+        rdf:type      schema:PropertyValue .
+
+_:b46   schema:priceCurrency  "USD" ;
+        schema:price          "13"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b70   schema:name   "province" ;
+        schema:value  wd:Q567327 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Quiévremont_2012_Vin_de_Maison_Red_(Virginia)>
+        schema:category            "Vin de Maison" ;
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:additionalProperty  _:b71 ;
+        schema:description         "Ripe aromas of dark berries mingle with ample notes of black pepper, toasted vanilla and dusty tobacco. The palate is oak-driven in nature, but notes of tart red currant shine through, offering a bit of levity." ;
+        schema:name                "Quiévremont 2012 Vin de Maison Red (Virginia)" ;
+        schema:additionalProperty  _:b72 ;
+        dcterms:subject            "Red Blend" ;
+        schema:review              _:b73 ;
+        schema:offers              _:b35 ;
+        rdf:type                   schema:Product .
+
+_:b74   schema:priceCurrency  "USD" ;
+        schema:price          "11"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+<https://example.org/Henry_Fessy_2012_Nouveau_(Beaujolais)>
+        schema:category            "Nouveau" ;
+        schema:description         "This is a festive wine, with soft, ripe fruit and acidity, plus a red berry flavor." ;
+        rdf:type                   schema:Product ;
+        schema:review              _:b75 ;
+        schema:countryOfOrigin     wd:Q142 ;
+        dcterms:subject            "Gamay" ;
+        schema:offers              _:b76 ;
+        schema:additionalProperty  _:b77 ;
+        schema:additionalProperty  _:b78 ;
+        schema:name                "Henry Fessy 2012 Nouveau (Beaujolais)" .
+
+_:b79   schema:name   "region_2" ;
+        schema:value  wd:Q2413435 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Viticultori_Associati_Canicatti_2008_Scialo_Red_(Sicilia)>
+        schema:additionalProperty  _:b80 ;
+        schema:additionalProperty  _:b81 ;
+        schema:description         "This blend of Nero d'Avola and Syrah opens with savory aromas of cured meat, dried berry, cassis, tobacco and wet earth. There's a touch of almond bitterness on the finish." ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:category            "Scialo" ;
+        dcterms:subject            "Red Blend" ;
+        schema:name                "Viticultori Associati Canicatti 2008 Scialo Red (Sicilia)" ;
+        rdf:type                   schema:Product .
+
+<https://example.org/Feudo_di_Santa_Tresa_2011_Purato_Made_With_Organic_Grapes_Nero_d'Avola_(Sicilia)>
+        schema:additionalProperty  _:b82 ;
+        schema:additionalProperty  _:b83 ;
+        schema:offers              _:b84 ;
+        schema:description         "Part of the natural wine movement, this wine is made from organic grapes, and the label is printed with vegetable ink on recycled paper. The quality of fruit is very nice, with a juicy palate and a bright berry flavor on the finish." ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:category            "Purato Made With Organic Grapes" ;
+        dcterms:subject            "Nero d'Avola" ;
+        schema:name                "Feudo di Santa Tresa 2011 Purato Made With Organic Grapes Nero d'Avola (Sicilia)" ;
+        rdf:type                   schema:Product .
+
+_:b85   schema:name   "region_1" ;
+        schema:value  wd:Q1801007 ;
+        rdf:type      schema:PropertyValue .
+
+_:b6    schema:author  wd:Q7151010 ;
+        rdf:type       schema:Review .
+
+<https://example.org/Tandem_2011_Ars_In_Vitro_Tempranillo-Merlot_(Navarra)>
+        schema:category            "Ars In Vitro" ;
+        rdf:type                   schema:Product ;
+        schema:offers              _:b86 ;
+        dcterms:subject            "Tempranillo-Merlot" ;
+        schema:countryOfOrigin     wd:Q29 ;
+        schema:description         "Blackberry and raspberry aromas show a typical Navarran whiff of green herbs and, in this case, horseradish. In the mouth, this is fairly full bodied, with tomatoey acidity. Spicy, herbal flavors complement dark plum fruit, while the finish is fresh but grabby." ;
+        schema:name                "Tandem 2011 Ars In Vitro Tempranillo-Merlot (Navarra)" ;
+        schema:additionalProperty  _:b87 ;
+        schema:additionalProperty  _:b88 ;
+        schema:review              _:b42 .
+
+_:b89   schema:name   "region_1" ;
+        schema:value  wd:Q824 ;
+        rdf:type      schema:PropertyValue .
+
+_:b90   rdf:type  schema:Review .
+
+_:b77   schema:name   "region_1" ;
+        schema:value  wd:Q3558198 ;
+        rdf:type      schema:PropertyValue .
+
+_:b91   schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b92   schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b39   schema:name   "region_2" ;
+        schema:value  wd:Q2413435 ;
+        rdf:type      schema:PropertyValue .
+
+_:b93   schema:priceCurrency  "USD" ;
+        schema:price          "12"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b94   schema:name   "region_2" ;
+        schema:value  wd:Q919057 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Tasca_d'Almerita_2011_Sallier_de_la_Tour_Inzolia_(Sicilia)>
+        schema:offers              _:b67 ;
+        schema:additionalProperty  _:b95 ;
+        schema:name                "Tasca d'Almerita 2011 Sallier de la Tour Inzolia (Sicilia)" ;
+        schema:category            "Sallier de la Tour" ;
+        schema:countryOfOrigin     wd:Q38 ;
+        rdf:type                   schema:Product ;
+        dcterms:subject            "Inzolia" ;
+        schema:additionalProperty  _:b96 ;
+        schema:description         "Spicy, fresh and clean, this would pair with fried seafood or spaghetti con vongole. It offers pretty citrus tones followed by a drying mineral nuance." ;
+        schema:manufacturer        wd:Q19309836 .
+
+_:b97   schema:name   "region_1" ;
+        schema:value  wd:Q3733809 ;
+        rdf:type      schema:PropertyValue .
+
+_:b64   schema:author  wd:Q100942550 ;
+        rdf:type       schema:Review .
+
+_:b98   schema:name   "region_1" ;
+        schema:value  wd:Q826340 ;
+        rdf:type      schema:PropertyValue .
+
+_:b53   schema:name   "province" ;
+        schema:value  wd:Q99 ;
+        rdf:type      schema:PropertyValue .
+
+_:b99   schema:priceCurrency  "USD" ;
+        schema:price          "19"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b100  schema:priceCurrency  "USD" ;
+        schema:price          "14"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+<https://example.org/Felix_Lavaque_2010_Felix_Malbec_(Cafayate)>
+        schema:additionalProperty  _:b59 ;
+        schema:review              _:b101 ;
+        schema:offers              _:b102 ;
+        schema:description         "Baked plum, molasses, balsamic vinegar and cheesy oak aromas feed into a palate that's braced by a bolt of acidity. A compact set of saucy red-berry and plum flavors features tobacco and peppery accents, while the finish is mildly green in flavor, with respectable weight and balance." ;
+        schema:countryOfOrigin     wd:Q414 ;
+        schema:category            "Felix" ;
+        dcterms:subject            "Malbec" ;
+        schema:name                "Felix Lavaque 2010 Felix Malbec (Cafayate)" ;
+        rdf:type                   schema:Product .
+
+_:b103  schema:author  wd:Q100942550 ;
+        rdf:type       schema:Review .
+
+_:b104  schema:name   "region_1" ;
+        schema:value  wd:Q118823505 ;
+        rdf:type      schema:PropertyValue .
+
+_:b105  schema:author  wd:Q12064694 ;
+        rdf:type       schema:Review .
+
+_:b106  schema:name   "province" ;
+        schema:value  wd:Q7101030 ;
+        rdf:type      schema:PropertyValue .
+
+_:b107  schema:name   "region_1" ;
+        schema:value  wd:Q156361 ;
+        rdf:type      schema:PropertyValue .
+
+_:b78   schema:name   "province" ;
+        schema:value  wd:Q3558198 ;
+        rdf:type      schema:PropertyValue .
+
+_:b87   schema:name   "province" ;
+        schema:value  wd:Q14208861 ;
+        rdf:type      schema:PropertyValue .
+
+_:b38   schema:priceCurrency  "USD" ;
+        schema:price          "12"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b108  schema:priceCurrency  "USD" ;
+        schema:price          "50"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+<https://example.org/Nicosia_2013_Vulkà_Bianco_(Etna)>
+        schema:additionalProperty  _:b109 ;
+        schema:additionalProperty  _:b92 ;
+        schema:review              _:b110 ;
+        schema:description         "Aromas include tropical fruit, broom, brimstone and dried herb. The palate isn't overly expressive, offering unripened apple, citrus and dried sage alongside brisk acidity." ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:category            "Vulkà Bianco" ;
+        dcterms:subject            "White Blend" ;
+        schema:name                "Nicosia 2013 Vulkà Bianco (Etna)" ;
+        rdf:type                   schema:Product .
+
+_:b109  schema:name   "region_1" ;
+        schema:value  wd:Q3733809 ;
+        rdf:type      schema:PropertyValue .
+
+_:b111  schema:name   "region_1" ;
+        schema:value  wd:Q2167338 ;
+        rdf:type      schema:PropertyValue .
+
+_:b101  rdf:type  schema:Review .
+
+_:b112  schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b82   schema:name   "region_1" ;
+        schema:value  wd:Q1460 ;
+        rdf:type      schema:PropertyValue .
+
+_:b113  schema:name   "province" ;
+        schema:value  wd:Q99 ;
+        rdf:type      schema:PropertyValue .
+
+_:b58   schema:priceCurrency  "USD" ;
+        schema:price          "10"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b86   schema:priceCurrency  "USD" ;
+        schema:price          "15"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b114  schema:priceCurrency  "USD" ;
+        schema:price          "14"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b115  schema:name   "region_1" ;
+        schema:value  wd:Q1151105 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Jean-Baptiste_Adam_2012_Les_Natures_Pinot_Gris_(Alsace)>
+        schema:additionalProperty  _:b116 ;
+        rdf:type                   schema:Product ;
+        dcterms:subject            "Pinot Gris" ;
+        schema:offers              _:b117 ;
+        schema:countryOfOrigin     wd:Q142 ;
+        schema:category            "Les Natures" ;
+        schema:name                "Jean-Baptiste Adam 2012 Les Natures Pinot Gris (Alsace)" ;
+        schema:additionalProperty  _:b118 ;
+        schema:description         "This has great depth of flavor with its fresh apple and pear fruits and touch of spice. It's off dry while balanced with acidity and a crisp texture. Drink now." ;
+        schema:review              _:b119 .
+
+_:b120  schema:name   "region_1" ;
+        schema:value  wd:Q1460 ;
+        rdf:type      schema:PropertyValue .
+
+_:b54   rdf:type  schema:Review .
+
+_:b121  schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Quinta_dos_Avidagos_2011_Avidagos_Red_(Douro)>
+        schema:countryOfOrigin     wd:Q45 ;
+        schema:name                "Quinta dos Avidagos 2011 Avidagos Red (Douro)" ;
+        schema:review              _:b122 ;
+        schema:manufacturer        wd:Q10356406 ;
+        rdf:type                   schema:Product ;
+        schema:additionalProperty  _:b123 ;
+        dcterms:subject            "Portuguese Red" ;
+        schema:category            "Avidagos" ;
+        schema:offers              _:b124 ;
+        schema:description         "This is ripe and fruity, a wine that is smooth while still structured. Firm tannins are filled out with juicy red berry fruits and freshened with acidity. It's already drinkable, although it will certainly be better from 2016." .
+
+_:b125  schema:priceCurrency  "USD" ;
+        schema:price          "32"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b126  schema:name   "province" ;
+        schema:value  wd:Q99 ;
+        rdf:type      schema:PropertyValue .
+
+_:b18   schema:priceCurrency  "USD" ;
+        schema:price          "17"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+<https://example.org/Heinz_Eifel_2013_Shine_Gewürztraminer_(Rheinhessen)>
+        schema:additionalProperty  _:b70 ;
+        schema:review              _:b127 ;
+        schema:offers              _:b93 ;
+        schema:description         "Savory dried thyme notes accent sunnier flavors of preserved peach in this brisk, off-dry wine. It's fruity and fresh, with an elegant, sprightly footprint." ;
+        schema:countryOfOrigin     wd:Q183 ;
+        schema:category            "Shine" ;
+        dcterms:subject            "Gewürztraminer" ;
+        schema:name                "Heinz Eifel 2013 Shine Gewürztraminer (Rheinhessen)" ;
+        rdf:type                   schema:Product .
+
+_:b88   schema:name   "region_1" ;
+        schema:value  wd:Q4018 ;
+        rdf:type      schema:PropertyValue .
+
+_:b128  schema:author  wd:Q7151010 ;
+        rdf:type       schema:Review .
+
+_:b129  schema:name   "region_1" ;
+        schema:value  wd:Q2055633 ;
+        rdf:type      schema:PropertyValue .
+
+_:b130  schema:name   "province" ;
+        schema:value  wd:Q14208861 ;
+        rdf:type      schema:PropertyValue .
+
+_:b131  schema:author  wd:Q7151010 ;
+        rdf:type       schema:Review .
+
+<https://example.org/Hawkins_Cellars_2009_Pinot_Noir_(Willamette_Valley)>
+        schema:name                "Hawkins Cellars 2009 Pinot Noir (Willamette Valley)" ;
+        schema:offers              _:b36 ;
+        schema:countryOfOrigin     wd:Q30 ;
+        dcterms:subject            "Pinot Noir" ;
+        rdf:type                   schema:Product ;
+        schema:description         "A stiff, tannic wine, this slowly opens and brings brambly berry flavors into play, along with notes of earthy herbs. There's a touch of bitterness to the tannins." ;
+        schema:review              _:b132 ;
+        schema:additionalProperty  _:b133 ;
+        schema:additionalProperty  _:b134 ;
+        schema:additionalProperty  _:b135 .
+
+_:b83   schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Trimbach_2012_Gewurztraminer_(Alsace)>
+        schema:offers              _:b136 ;
+        dcterms:subject            "Gewürztraminer" ;
+        rdf:type                   schema:Product ;
+        schema:description         "This dry and restrained wine offers spice in profusion. Balanced with acidity and a firm texture, it's very much for food." ;
+        schema:review              _:b103 ;
+        schema:additionalProperty  _:b137 ;
+        schema:additionalProperty  _:b138 ;
+        schema:name                "Trimbach 2012 Gewurztraminer (Alsace)" ;
+        schema:countryOfOrigin     wd:Q142 ;
+        schema:manufacturer        wd:Q6737056 .
+
+_:b65   schema:priceCurrency  "USD" ;
+        schema:price          "30"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b8    schema:name   "province" ;
+        schema:value  wd:Q7101030 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Feudi_del_Pisciotto_2010_Missoni_Cabernet_Sauvignon_(Sicilia)>
+        schema:additionalProperty  _:b61 ;
+        schema:additionalProperty  _:b91 ;
+        schema:offers              _:b139 ;
+        schema:description         "This concentrated Cabernet offers aromas of cured meat, dried fruit and rosemary. Barbecue spice and teriyaki sauce flavors give the wine a bold, chewy feel." ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:category            "Missoni" ;
+        dcterms:subject            "Cabernet Sauvignon" ;
+        schema:name                "Feudi del Pisciotto 2010 Missoni Cabernet Sauvignon (Sicilia)" ;
+        rdf:type                   schema:Product .
+
+_:b75   schema:author  wd:Q100942550 ;
+        rdf:type       schema:Review .
+
+<https://example.org/Acrobat_2013_Pinot_Noir_(Oregon)>
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:additionalProperty  _:b89 ;
+        schema:review              _:b131 ;
+        schema:description         "A sleek mix of tart berry, stem and herb, along with a hint of oak and chocolate, this is a fair value in a widely available, drink-now Oregon Pinot. The wine oak-aged for six months, whether in neutral or re-staved is not indicated." ;
+        schema:offers              _:b140 ;
+        schema:additionalProperty  _:b141 ;
+        schema:name                "Acrobat 2013 Pinot Noir (Oregon)" ;
+        schema:additionalProperty  _:b106 ;
+        dcterms:subject            "Pinot Noir" ;
+        rdf:type                   schema:Product .
+
+_:b142  schema:author  wd:Q12064694 ;
+        rdf:type       schema:Review .
+
+_:b143  schema:name   "province" ;
+        schema:value  wd:Q99 ;
+        rdf:type      schema:PropertyValue .
+
+_:b144  schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b55   schema:name   "region_2" ;
+        schema:value  wd:Q27026 ;
+        rdf:type      schema:PropertyValue .
+
+_:b145  schema:priceCurrency  "USD" ;
+        schema:price          "35"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b7    schema:priceCurrency  "USD" ;
+        schema:price          "14"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b33   schema:priceCurrency  "USD" ;
+        schema:price          "40"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+<https://example.org/Pradorey_2010_Vendimia_Seleccionada_Finca_Valdelayegua_Single_Vineyard_Crianza_(Ribera_del_Duero)>
+        schema:additionalProperty  _:b130 ;
+        dcterms:subject            "Tempranillo Blend" ;
+        schema:name                "Pradorey 2010 Vendimia Seleccionada Finca Valdelayegua Single Vineyard Crianza (Ribera del Duero)" ;
+        schema:countryOfOrigin     wd:Q29 ;
+        schema:offers              _:b146 ;
+        schema:category            "Vendimia Seleccionada Finca Valdelayegua Single Vineyard Crianza" ;
+        schema:review              _:b147 ;
+        rdf:type                   schema:Product ;
+        schema:manufacturer        wd:Q21573668 ;
+        schema:description         "Desiccated blackberry, leather, charred wood and mint aromas carry the nose on this full-bodied, tannic, heavily oaked Tinto Fino. Flavors of clove and woodspice sit on top of blackberry fruit, then hickory and other forceful oak-based aromas rise up and dominate the finish." ;
+        schema:additionalProperty  _:b111 .
+
+_:b119  schema:author  wd:Q100942550 ;
+        rdf:type       schema:Review .
+
+_:b26   schema:name   "region_1" ;
+        schema:value  wd:Q1054633 ;
+        rdf:type      schema:PropertyValue .
+
+_:b148  schema:author  wd:Q12064694 ;
+        rdf:type       schema:Review .
+
+_:b149  schema:name   "province" ;
+        schema:value  wd:Q99 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Robert_Hall_2011_Sauvignon_Blanc_(Paso_Robles)>
+        schema:additionalProperty  _:b79 ;
+        schema:additionalProperty  _:b150 ;
+        schema:additionalProperty  _:b151 ;
+        schema:offers              _:b100 ;
+        schema:description         "The clean, brisk mouthfeel gives this slightly oaked Sauvignon Blanc instant likeability. It's dry with a rich streak of honey that sweetens the citrus, pear and tropical fruit flavors. Pair this with Asian fare, ham or a green salad with grapefruit sections." ;
+        schema:countryOfOrigin     wd:Q30 ;
+        dcterms:subject            "Sauvignon Blanc" ;
+        schema:name                "Robert Hall 2011 Sauvignon Blanc (Paso Robles)" ;
+        rdf:type                   schema:Product .
+
+_:b80   schema:name   "region_1" ;
+        schema:value  wd:Q1460 ;
+        rdf:type      schema:PropertyValue .
+
+_:b152  schema:name   "province" ;
+        schema:value  wd:Q17078441 ;
+        rdf:type      schema:PropertyValue .
+
+_:b102  schema:priceCurrency  "USD" ;
+        schema:price          "30"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b141  schema:name   "region_2" ;
+        schema:value  wd:Q824 ;
+        rdf:type      schema:PropertyValue .
+
+_:b137  schema:name   "province" ;
+        schema:value  wd:Q745121 ;
+        rdf:type      schema:PropertyValue .
+
+_:b139  schema:priceCurrency  "USD" ;
+        schema:price          "21"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b4    schema:name   "region_2" ;
+        schema:value  wd:Q919057 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Sundance_2011_Merlot_(Maule_Valley)>
+        schema:additionalProperty  _:b152 ;
+        schema:review              _:b153 ;
+        schema:offers              _:b154 ;
+        schema:description         "A berry aroma comes with cola and herb notes. The palate is tangy and racy, and it delivers raspberry and plum flavors, with a modest finish." ;
+        schema:countryOfOrigin     wd:Q298 ;
+        dcterms:subject            "Merlot" ;
+        schema:name                "Sundance 2011 Merlot (Maule Valley)" ;
+        rdf:type                   schema:Product .
+
+<https://example.org/Domaine_de_la_Madone_2012_Nouveau_(Beaujolais-Villages)>
+        schema:additionalProperty  _:b155 ;
+        schema:additionalProperty  _:b156 ;
+        schema:review              _:b30 ;
+        schema:description         "Red cherry fruit comes laced with light tannins, giving this bright wine an open, juicy character." ;
+        schema:countryOfOrigin     wd:Q142 ;
+        schema:category            "Nouveau" ;
+        dcterms:subject            "Gamay" ;
+        schema:name                "Domaine de la Madone 2012 Nouveau (Beaujolais-Villages)" ;
+        rdf:type                   schema:Product .
+
+<https://example.org/Quiévremont_2012_Meritage_(Virginia)>
+        schema:additionalProperty  _:b157 ;
+        schema:additionalProperty  _:b47 ;
+        schema:review              _:b90 ;
+        schema:offers              _:b125 ;
+        schema:description         "Red fruit aromas pervade on the nose, with cigar box and menthol notes riding in the back. The palate is slightly restrained on entry, but opens up to riper notes of cherry and plum specked with crushed pepper. This blend of Merlot, Cabernet Sauvignon and Cabernet Franc is approachable now and ready to be enjoyed." ;
+        schema:countryOfOrigin     wd:Q30 ;
+        dcterms:subject            "Meritage" ;
+        schema:name                "Quiévremont 2012 Meritage (Virginia)" ;
+        rdf:type                   schema:Product .
+
+<https://example.org/Masseria_Setteporte_2012_Rosso_(Etna)>
+        schema:additionalProperty  _:b97 ;
+        schema:additionalProperty  _:b112 ;
+        schema:review              _:b142 ;
+        schema:description         "This is dominated by oak and oak-driven aromas that include roasted coffee bean, espresso, coconut and vanilla that carry over to the palate, together with plum and chocolate. Astringent, drying tannins give it a rather abrupt finish." ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:category            "Rosso" ;
+        dcterms:subject            "Nerello Mascalese" ;
+        schema:name                "Masseria Setteporte 2012 Rosso (Etna)" ;
+        rdf:type                   schema:Product .
+
+_:b5    schema:name   "region_1" ;
+        schema:value  wd:Q1703681 ;
+        rdf:type      schema:PropertyValue .
+
+_:b122  schema:author  wd:Q100942550 ;
+        rdf:type       schema:Review .
+
+<https://example.org/Richard_Böcking_2013_Devon_Riesling_(Mosel)>
+        schema:additionalProperty  _:b158 ;
+        schema:review              _:b159 ;
+        schema:offers              _:b160 ;
+        schema:description         "Zesty orange peels and apple notes abound in this sprightly, mineral-toned Riesling. Off dry on the palate, yet racy and lean, it's a refreshing, easy quaffer with wide appeal." ;
+        schema:countryOfOrigin     wd:Q183 ;
+        schema:category            "Devon" ;
+        dcterms:subject            "Riesling" ;
+        schema:name                "Richard Böcking 2013 Devon Riesling (Mosel)" ;
+        rdf:type                   schema:Product .
+
+<https://example.org/Baglio_di_Pianetto_2007_Ficiligno_White_(Sicilia)>
+        schema:review              _:b48 ;
+        dcterms:subject            "White Blend" ;
+        schema:name                "Baglio di Pianetto 2007 Ficiligno White (Sicilia)" ;
+        rdf:type                   schema:Product ;
+        schema:offers              _:b99 ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:additionalProperty  _:b161 ;
+        schema:category            "Ficiligno" ;
+        schema:description         "Delicate aromas recall white flower and citrus. The palate offers passion fruit, lime and white peach with a hint of mineral alongside bright acidity." ;
+        schema:additionalProperty  _:b162 .
+
+_:b147  rdf:type  schema:Review .
+
+_:b72   schema:name   "region_1" ;
+        schema:value  wd:Q1370 ;
+        rdf:type      schema:PropertyValue .
+
+_:b158  schema:name   "province" ;
+        schema:value  wd:Q672776 ;
+        rdf:type      schema:PropertyValue .
+
+_:b133  schema:name   "region_1" ;
+        schema:value  wd:Q1703681 ;
+        rdf:type      schema:PropertyValue .
+
+_:b163  schema:name   "province" ;
+        schema:value  wd:Q6159082 ;
+        rdf:type      schema:PropertyValue .
+
+_:b52   schema:priceCurrency  "USD" ;
+        schema:price          "16"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b136  schema:priceCurrency  "USD" ;
+        schema:price          "24"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b164  schema:name   "region_2" ;
+        schema:value  wd:Q11592 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/The_White_Knight_2011_Riesling_(Lake_County)>
+        schema:additionalProperty  _:b107 ;
+        schema:additionalProperty  _:b126 ;
+        schema:offers              _:b165 ;
+        schema:description         "This is a sweet wine with flavors of white sugar, orange, honey and vanilla, all brightened by crisp acidity." ;
+        schema:countryOfOrigin     wd:Q30 ;
+        dcterms:subject            "Riesling" ;
+        schema:name                "The White Knight 2011 Riesling (Lake County)" ;
+        rdf:type                   schema:Product .
+
+<https://example.org/St._Julian_2013_Reserve_Late_Harvest_Riesling_(Lake_Michigan_Shore)>
+        schema:offers              _:b66 ;
+        rdf:type                   schema:Product ;
+        schema:additionalProperty  _:b49 ;
+        schema:review              _:b166 ;
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:name                "St. Julian 2013 Reserve Late Harvest Riesling (Lake Michigan Shore)" ;
+        schema:description         "Pineapple rind, lemon pith and orange blossom start off the aromas. The palate is a bit more opulent, with notes of honey-drizzled guava and mango giving way to a slightly astringent, semidry finish." ;
+        schema:category            "Reserve Late Harvest" ;
+        schema:additionalProperty  _:b85 ;
+        dcterms:subject            "Riesling" ;
+        schema:manufacturer        wd:Q79130814 .
+
+<https://example.org/Duca_di_Salaparuta_2010_Calanìca_Nero_d'Avola-Merlot_Red_(Sicilia)>
+        schema:additionalProperty  _:b120 ;
+        schema:additionalProperty  _:b144 ;
+        schema:description         "Merlot and Nero d'Avola form the base for this easy red wine that would pair with fettuccine and meat sauce or pork roast. The quality of the fruit is clean, bright and sharp." ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:category            "Calanìca Nero d'Avola-Merlot" ;
+        dcterms:subject            "Red Blend" ;
+        schema:manufacturer        wd:Q60836721 ;
+        schema:name                "Duca di Salaparuta 2010 Calanìca Nero d'Avola-Merlot Red (Sicilia)" ;
+        rdf:type                   schema:Product .
+
+<https://example.org/Stemmari_2013_Dalila_White_(Terre_Siciliane)>
+        schema:description         "Pretty aromas of yellow flower and stone fruit lead the nose. The bright palate offers yellow apple, apricot, vanilla and delicate notes of lightly toasted oak alongside crisp acidity." ;
+        schema:additionalProperty  _:b121 ;
+        dcterms:subject            "White Blend" ;
+        schema:additionalProperty  _:b104 ;
+        schema:category            "Dalila" ;
+        schema:review              _:b148 ;
+        schema:offers              _:b167 ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:name                "Stemmari 2013 Dalila White (Terre Siciliane)" ;
+        rdf:type                   schema:Product .
+
+_:b14   schema:name   "region_1" ;
+        schema:value  wd:Q1669449 ;
+        rdf:type      schema:PropertyValue .
+
+_:b168  rdf:type  schema:Review .
+
+_:b169  schema:name   "region_1" ;
+        schema:value  wd:Q1261546 ;
+        rdf:type      schema:PropertyValue .
+
+_:b25   schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Estampa_2011_Estate_Viognier-Chardonnay_(Colchagua_Valley)>
+        schema:additionalProperty  _:b163 ;
+        schema:review              _:b170 ;
+        schema:offers              _:b171 ;
+        schema:description         "White flower, lychee and apple aromas carry the mellow bouquet. The chunky-feeling palate bears powdery, sweet flavors of peach and melon, mixed with greener notes of grass and lime. The 80% Viognier component is typical of the warm climate: plump and oily, with a short finish. Chardonnay fills out the blend." ;
+        schema:countryOfOrigin     wd:Q298 ;
+        schema:category            "Estate" ;
+        dcterms:subject            "Viognier-Chardonnay" ;
+        schema:name                "Estampa 2011 Estate Viognier-Chardonnay (Colchagua Valley)" ;
+        rdf:type                   schema:Product .
+
+_:b81   schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b140  schema:priceCurrency  "USD" ;
+        schema:price          "20"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b76   schema:priceCurrency  "USD" ;
+        schema:price          "9"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b138  schema:name   "region_1" ;
+        schema:value  wd:Q745121 ;
+        rdf:type      schema:PropertyValue .
+
+_:b172  schema:author  wd:Q12064694 ;
+        rdf:type       schema:Review .
+
+_:b23   schema:name   "region_1" ;
+        schema:value  wd:Q1764996 ;
+        rdf:type      schema:PropertyValue .
+
+_:b173  rdf:type  schema:Review .
+
+_:b71   schema:name   "province" ;
+        schema:value  wd:Q1370 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Kirkland_Signature_2011_Mountain_Cuvée_Cabernet_Sauvignon_(Napa_Valley)>
+        rdf:type                   schema:Product ;
+        schema:category            "Mountain Cuvée" ;
+        schema:additionalProperty  _:b143 ;
+        schema:review              _:b168 ;
+        schema:description         "Soft, supple plum envelopes an oaky structure in this Cabernet, supported by 15% Merlot. Coffee and chocolate complete the picture, finishing strong at the end, resulting in a value-priced wine of attractive flavor and immediate accessibility." ;
+        schema:offers              _:b174 ;
+        schema:manufacturer        wd:Q120451114 ;
+        schema:name                "Kirkland Signature 2011 Mountain Cuvée Cabernet Sauvignon (Napa Valley)" ;
+        schema:countryOfOrigin     wd:Q30 ;
+        dcterms:subject            "Cabernet Sauvignon" ;
+        schema:additionalProperty  _:b175 ;
+        schema:additionalProperty  _:b115 .
+
+_:b153  rdf:type  schema:Review .
+
+_:b135  schema:name   "province" ;
+        schema:value  wd:Q7101030 ;
+        rdf:type      schema:PropertyValue .
+
+_:b176  schema:name   "province" ;
+        schema:value  wd:Q7101030 ;
+        rdf:type      schema:PropertyValue .
+
+_:b96   schema:name   "region_1" ;
+        schema:value  wd:Q1460 ;
+        rdf:type      schema:PropertyValue .
+
+_:b177  schema:priceCurrency  "USD" ;
+        schema:price          "20"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+<https://example.org/Erath_2010_Hyland_Pinot_Noir_(McMinnville)>
+        schema:additionalProperty  _:b178 ;
+        dcterms:subject            "Pinot Noir" ;
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:additionalProperty  _:b94 ;
+        schema:category            "Hyland" ;
+        schema:review              _:b62 ;
+        schema:name                "Erath 2010 Hyland Pinot Noir (McMinnville)" ;
+        schema:additionalProperty  _:b3 ;
+        schema:description         "As with many of the Erath 2010 vineyard designates, this is strongly herbal. The notes of leaf and herb create somewhat unripe flavor impressions, with a touch of bitterness on the finish. The fruit just passes the ripeness of sweet tomatoes." ;
+        schema:offers              _:b108 ;
+        rdf:type                   schema:Product .
+
+_:b44   schema:name   "region_1" ;
+        schema:value  wd:Q166014 ;
+        rdf:type      schema:PropertyValue .
+
+_:b159  rdf:type  schema:Review .
+
+_:b16   schema:name   "province" ;
+        schema:value  wd:Q99 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Envolve_2011_Sauvignon_Blanc_(Sonoma_Valley)>
+        schema:additionalProperty  _:b164 ;
+        schema:additionalProperty  _:b98 ;
+        schema:additionalProperty  _:b113 ;
+        schema:offers              _:b177 ;
+        schema:description         "This shows a tart, green gooseberry flavor that is similar to New Zealand Sauvignon Blanc. Other notes include tropical fruit, orange and honey. Unoaked, with a splash of Muscat, this has commendable dryness and acidity." ;
+        schema:countryOfOrigin     wd:Q30 ;
+        dcterms:subject            "Sauvignon Blanc" ;
+        schema:name                "Envolve 2011 Sauvignon Blanc (Sonoma Valley)" ;
+        rdf:type                   schema:Product .
+
+_:b170  rdf:type  schema:Review .
+
+_:b179  schema:name   "province" ;
+        schema:value  wd:Q99 ;
+        rdf:type      schema:PropertyValue .
+
+_:b180  schema:name   "region_1" ;
+        schema:value  wd:Q18445244 ;
+        rdf:type      schema:PropertyValue .
+
+_:b175  schema:name   "region_2" ;
+        schema:value  wd:Q60537 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Bianchi_2011_Signature_Selection_Merlot_(Paso_Robles)>
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:name                "Bianchi 2011 Signature Selection Merlot (Paso Robles)" ;
+        schema:description         "This wine from the Geneseo district offers aromas of sour plums and just enough cigar box to tempt the nose. The flavors are a bit flat at first, then the acidity and tension of sour cherries emerges in the midpalate, bolstered by some black licorice." ;
+        dcterms:subject            "Merlot" ;
+        schema:review              _:b173 ;
+        rdf:type                   schema:Product ;
+        schema:offers              _:b181 ;
+        schema:additionalProperty  _:b149 ;
+        schema:additionalProperty  _:b129 ;
+        schema:additionalProperty  _:b182 ;
+        schema:category            "Signature Selection" .
+
+_:b167  schema:priceCurrency  "USD" ;
+        schema:price          "13"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b183  schema:priceCurrency  "USD" ;
+        schema:price          "65"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+<https://example.org/Canicattì_2009_Aynat_Nero_d'Avola_(Sicilia)>
+        dcterms:subject            "Nero d'Avola" ;
+        rdf:type                   schema:Product ;
+        schema:name                "Canicattì 2009 Aynat Nero d'Avola (Sicilia)" ;
+        schema:description         "Aromas of prune, blackcurrant, toast and oak carry through to the extracted palate, along with flavors of black cherry and roasted coffee beans. Firm but drying tannins provide the framework." ;
+        schema:offers              _:b145 ;
+        schema:category            "Aynat" ;
+        schema:review              _:b105 ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:additionalProperty  _:b43 ;
+        schema:additionalProperty  _:b68 .
+
+_:b165  schema:priceCurrency  "USD" ;
+        schema:price          "13"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b155  schema:name   "region_1" ;
+        schema:value  wd:Q2364928 ;
+        rdf:type      schema:PropertyValue .
+
+_:b27   schema:author  wd:Q12064694 ;
+        rdf:type       schema:Review .
+
+<https://example.org/Sweet_Cheeks_2012_Vintner's_Reserve_Wild_Child_Block_Pinot_Noir_(Willamette_Valley)>
+        dcterms:subject            "Pinot Noir" ;
+        schema:offers              _:b183 ;
+        schema:category            "Vintner's Reserve Wild Child Block" ;
+        schema:additionalProperty  _:b184 ;
+        schema:additionalProperty  _:b185 ;
+        schema:name                "Sweet Cheeks 2012 Vintner's Reserve Wild Child Block Pinot Noir (Willamette Valley)" ;
+        rdf:type                   schema:Product ;
+        schema:additionalProperty  _:b176 ;
+        schema:description         "Much like the regular bottling from 2012, this comes across as rather rough and tannic, with rustic, earthy, herbal characteristics. Nonetheless, if you think of it as a pleasantly unfussy country wine, it's a good companion to a hearty winter stew." ;
+        schema:review              _:b128 ;
+        schema:countryOfOrigin     wd:Q30 .
+
+_:b20   schema:name   "province" ;
+        schema:value  wd:Q99 ;
+        rdf:type      schema:PropertyValue .
+
+_:b95   schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b116  schema:name   "province" ;
+        schema:value  wd:Q745121 ;
+        rdf:type      schema:PropertyValue .
+
+_:b182  schema:name   "region_2" ;
+        schema:value  wd:Q2413435 ;
+        rdf:type      schema:PropertyValue .
+
+_:b146  schema:priceCurrency  "USD" ;
+        schema:price          "28"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b84   schema:priceCurrency  "USD" ;
+        schema:price          "12"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b185  schema:name   "region_2" ;
+        schema:value  wd:Q919057 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Duca_di_Salaparuta_2011_Calanìca_Grillo-Viognier_White_(Sicilia)>
+        schema:additionalProperty  _:b28 ;
+        schema:additionalProperty  _:b63 ;
+        schema:description         "Part of the extended Calanìca series, this Grillo-Viognier blend shows aromas of honeysuckle and jasmine, backed by touches of cut grass and wild sage. In the mouth, it shows ripe yellow-fruit flavors." ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:category            "Calanìca Grillo-Viognier" ;
+        dcterms:subject            "White Blend" ;
+        schema:manufacturer        wd:Q60836721 ;
+        schema:name                "Duca di Salaparuta 2011 Calanìca Grillo-Viognier White (Sicilia)" ;
+        rdf:type                   schema:Product .
+
+_:b184  schema:name   "region_1" ;
+        schema:value  wd:Q1703681 ;
+        rdf:type      schema:PropertyValue .
+
+_:b166  rdf:type  schema:Review .
+
+_:b161  schema:name   "region_1" ;
+        schema:value  wd:Q1460 ;
+        rdf:type      schema:PropertyValue .
+
+_:b45   schema:name   "province" ;
+        schema:value  wd:Q44797 ;
+        rdf:type      schema:PropertyValue .
+
+_:b73   rdf:type  schema:Review .
+
+_:b150  schema:name   "region_1" ;
+        schema:value  wd:Q2055633 ;
+        rdf:type      schema:PropertyValue .
+
+_:b186  schema:name   "province" ;
+        schema:value  wd:Q207989 ;
+        rdf:type      schema:PropertyValue .
+
+_:b132  schema:author  wd:Q7151010 ;
+        rdf:type       schema:Review .
+
+_:b174  schema:priceCurrency  "USD" ;
+        schema:price          "19"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b123  schema:name   "province" ;
+        schema:value  wd:Q649738 ;
+        rdf:type      schema:PropertyValue .
+
+_:b117  schema:priceCurrency  "USD" ;
+        schema:price          "27"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b40   schema:name   "region_1" ;
+        schema:value  wd:Q2413435 ;
+        rdf:type      schema:PropertyValue .
+
+_:b15   rdf:type  schema:Review .
+
+_:b178  schema:name   "region_1" ;
+        schema:value  wd:Q852693 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Feudi_di_San_Marzano_2011_I_Tratturi_Primitivo_(Puglia)>
+        schema:additionalProperty  _:b180 ;
+        schema:additionalProperty  _:b186 ;
+        schema:offers              _:b74 ;
+        schema:description         "Inky in color, this wine has plump aromas of ripe fruit, blackberry jam and rum cake. On the palate, it is soft and smooth." ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:category            "I Tratturi" ;
+        dcterms:subject            "Primitivo" ;
+        schema:name                "Feudi di San Marzano 2011 I Tratturi Primitivo (Puglia)" ;
+        rdf:type                   schema:Product .
+
+_:b156  schema:name   "province" ;
+        schema:value  wd:Q3558198 ;
+        rdf:type      schema:PropertyValue .
+
+_:b181  schema:priceCurrency  "USD" ;
+        schema:price          "22"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b124  schema:priceCurrency  "USD" ;
+        schema:price          "15"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b154  schema:priceCurrency  "USD" ;
+        schema:price          "9"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+<https://example.org/Terre_di_Giurfo_2013_Belsito_Frappato_(Vittoria)>
+        schema:review              _:b172 ;
+        schema:countryOfOrigin     wd:Q38 ;
+        schema:additionalProperty  _:b37 ;
+        schema:offers              _:b11 ;
+        schema:additionalProperty  _:b187 ;
+        dcterms:subject            "Frappato" ;
+        schema:name                "Terre di Giurfo 2013 Belsito Frappato (Vittoria)" ;
+        rdf:type                   schema:Product ;
+        schema:description         "Here's a bright, informal red that opens with aromas of candied berry, white pepper and savory herb that carry over to the palate. It's balanced with fresh acidity and soft tannins." ;
+        schema:category            "Belsito" .
+
+_:b118  schema:name   "region_1" ;
+        schema:value  wd:Q745121 ;
+        rdf:type      schema:PropertyValue .
+
+_:b127  rdf:type  schema:Review .
+
+_:b56   schema:name   "region_1" ;
+        schema:value  wd:Q118823505 ;
+        rdf:type      schema:PropertyValue .
+
+_:b21   rdf:type  schema:Review .
+
+_:b162  schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Envolve_2010_Puma_Springs_Vineyard_Red_(Dry_Creek_Valley)>
+        schema:name                "Envolve 2010 Puma Springs Vineyard Red (Dry Creek Valley)" ;
+        schema:additionalProperty  _:b169 ;
+        schema:category            "Puma Springs Vineyard" ;
+        schema:offers              _:b50 ;
+        schema:countryOfOrigin     wd:Q30 ;
+        schema:description         "Rustic and dry, this has flavors of berries, currants, licorice and spices. Made from Cabernet Franc and Cabernet Sauvignon." ;
+        schema:additionalProperty  _:b12 ;
+        schema:additionalProperty  _:b179 ;
+        dcterms:subject            "Red Blend" ;
+        rdf:type                   schema:Product .
+
+_:b188  schema:name   "region_1" ;
+        schema:value  wd:Q34790319 ;
+        rdf:type      schema:PropertyValue .
+
+_:b151  schema:name   "province" ;
+        schema:value  wd:Q99 ;
+        rdf:type      schema:PropertyValue .
+
+_:b187  schema:name   "province" ;
+        schema:value  wd:Q4951156 ;
+        rdf:type      schema:PropertyValue .
+
+_:b160  schema:priceCurrency  "USD" ;
+        schema:price          "24"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b171  schema:priceCurrency  "USD" ;
+        schema:price          "15"^^xsd:double ;
+        rdf:type              schema:Offer .
+
+_:b134  schema:name   "region_2" ;
+        schema:value  wd:Q919057 ;
+        rdf:type      schema:PropertyValue .
+
+<https://example.org/Vignerons_de_Bel_Air_2011_Eté_Indien_(Brouilly)>
+        schema:offers              _:b114 ;
+        schema:countryOfOrigin     wd:Q142 ;
+        schema:additionalProperty  _:b188 ;
+        schema:category            "Eté Indien" ;
+        schema:description         "Soft and fruity, this is a generous, ripe wine that's full of juicy red-cherry fruits and gentle tannins. It has some richness, giving a sweet character to this open, ready-to-drink wine." ;
+        schema:additionalProperty  _:b34 ;
+        dcterms:subject            "Gamay" ;
+        rdf:type                   schema:Product ;
+        schema:review              _:b69 ;
+        schema:name                "Vignerons de Bel Air 2011 Eté Indien (Brouilly)" .
+
+_:b110  schema:author  wd:Q12064694 ;
+        rdf:type       schema:Review .
+
+_:b157  schema:name   "region_1" ;
+        schema:value  wd:Q1370 ;
+        rdf:type      schema:PropertyValue .
